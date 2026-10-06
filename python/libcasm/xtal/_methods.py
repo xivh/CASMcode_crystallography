@@ -38,7 +38,7 @@ def make_primitive(
 
     Returns
     -------
-    canonical_obj : Union[_xtal.Prim, _xtal.Structure]
+    primitive_obj : Union[_xtal.Prim, _xtal.Structure]
         The primitive equivalent Prim or atomic Structure.
     """
     if isinstance(obj, _xtal.Prim):
